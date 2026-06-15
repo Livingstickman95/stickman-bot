@@ -6,9 +6,9 @@ from telegram.ext import (
     filters,
     ContextTypes
 )
-import csv
+import on
 
-TOKEN = "8619693580:AAGAncMJU-EMuMhRkLP8WwrdtOFd9o368XA"
+TOKEN = os.getenv "8619693580:AAEUH8qwj056kRr6gL5fl5whDYeUzRvq-a0"
 
 ADMIN_CHAT_ID = 6345498497
 
